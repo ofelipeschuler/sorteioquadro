@@ -2,9 +2,8 @@
 
 <script>
    // Opções possíveis
-const soldTickets = [3,7,8,9,13,16,17,22,23,29,33,43,51,56,69,85,87,100]
+const soldTickets = ['3 - JULIANA BARROS','4 - BRUNA MARIA','7 - FLÁVIA SCHULER','8 - CARLOS SCHULER','9 - POLLYANA MONTEIRO','13 - ROBSON MATOS','16 - ELLY ALLYSON','17 - SANDRO','22 - FLÁVIA SCHULER','23 - CARLOS SCHULER','29 - CARLOS SCHULER','33 - ARTHUR SCHULER','43 - MIRIAM SCHULER','51 - TIAGO MARTINS REGO','56 - MIRIAM SCHULER','69 - BRUNA MARIA','85 - FLÁVIA SCHULER','87 - ELLY ALLYSON','100 - BRUNA MARIA']
 
-// 0 - Aqui um pouquinho de matemática
 // 1 - O Math random escolhe um número pseudo aleatório entre 0 e 1
 // 2 - Este número pseudo aleatório é multiplicado pela quantidade de números possíveis 
 // 3 - Logo após é arredondado pra que seja utilizado como index para achar a posição referente no array (Não tem uma posição 3.67 mas sim 3 por exemplo)
@@ -15,4 +14,5 @@ const drawn = soldTickets[randomIndex]
 
 console.log({ randomIndex, drawn })
 
+window.alert(drawn)
 </script>
